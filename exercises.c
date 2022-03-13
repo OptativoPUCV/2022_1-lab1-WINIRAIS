@@ -37,10 +37,10 @@ Utilice la función sumaN.
 */
 
 void sumaNultimos(int a[], int n, int m, int *suma) {
-   int primeraPosicion,i;
+   int primeraPosicion = 0 ,i;
    primeraPosicion = n - m;
-   for(i = primeraPosicion ; i < n ; i++){
-      *suma = a[i] + *suma;
+   for (i = primeraPosicion ; i < n ; i++){
+      *suma += a[i] ;
    }
 }
 
