@@ -20,3 +20,14 @@ Sun Mar 13 18:32:36 HSP 2022:
  tests:  1|6
 total_score: 10/70
 c93fb64
+Sun Mar 13 18:39:42 HSP 2022: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaNultimos':
+exercises.c:42:16: error: initialization makes integer from pointer without a cast [-Werror=int-conversion]
+    for(int i = &primeraPosicion ; i < n ; i++){
+                ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+c5cc175
