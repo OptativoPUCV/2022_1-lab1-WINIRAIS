@@ -31,3 +31,9 @@ exercises.c:42:16: error: initialization makes integer from pointer without a ca
 cc1.exe: all warnings being treated as errors
 Compilation failed
 c5cc175
+Sun Mar 13 18:43:05 HSP 2022: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  1|6
+total_score: 10/70
+68d0ae0
