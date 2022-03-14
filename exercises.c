@@ -37,11 +37,13 @@ Utilice la función sumaN.
 */
 
 void sumaNultimos(int a[], int n, int m, int *suma) {
+   *suma = sumaN(a+n-m, m);
+   /*
    int primeraPosicion = 0 ,i;
    primeraPosicion = n - m;
    for (i = primeraPosicion ; i < n ; i++){
       *suma = a[i] + *suma;
-   }
+   }*/
 }
 
 /*
@@ -128,5 +130,5 @@ Use las operaciones implementadas de vectores para
 sumar (a1,a2)+(b1+b2). Almacene el resultado en el vector c.
 */
 void sumaV2(int a1, int a2, int b1, int b2, Vector *c){
-   
+
 }
