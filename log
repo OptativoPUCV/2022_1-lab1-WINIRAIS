@@ -122,3 +122,14 @@ Sun Mar 13 21:26:27 HSP 2022:
  tests:  2|5
 total_score: 20/70
 45c30ab
+Sun Mar 13 21:34:07 HSP 2022: 
+ exercises.c | 10 +++-------
+ 1 file changed, 3 insertions(+), 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearVector':
+exercises.c:88:12: error: return from incompatible pointer type [-Werror=incompatible-pointer-types]
+    return v.datos;
+           ~^~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+790c10d
