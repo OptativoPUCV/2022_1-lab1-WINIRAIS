@@ -100,7 +100,6 @@ void asignarValor(Vector * v, int i, int valor) {
    int* vec;
    vec = v;
    vec[i] = valor;
-   v = vec[i];
 }
 
 /*
