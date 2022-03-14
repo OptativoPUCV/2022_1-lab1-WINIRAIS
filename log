@@ -133,3 +133,9 @@ exercises.c:88:12: error: return from incompatible pointer type [-Werror=incompa
 cc1.exe: all warnings being treated as errors
 Compilation failed
 790c10d
+Sun Mar 13 21:41:45 HSP 2022: 
+ exercises.c | 8 +++++---
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+ tests:  2|5
+total_score: 20/70
+45f81a1
