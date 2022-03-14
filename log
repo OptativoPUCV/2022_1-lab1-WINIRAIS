@@ -290,3 +290,9 @@ exercises.c:102:8: error: incompatible types when assigning to type 'int *' from
         ^
 Compilation failed
 1b0cd37
+Sun Mar 13 23:54:54 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+4d2ab2b
