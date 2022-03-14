@@ -97,10 +97,7 @@ Programe la función void asignarValor(Vector * v, int i, int valor),
 la cual asigna el valor a la posición i del vector v.
 */
 void asignarValor(Vector * v, int i, int valor) {
-   int *vec = NULL;
-   vec = (int *) malloc(sizeof(int));
-   vec = (int*) v;
-   vec[i] = valor; 
+   v->datos[i] = valor;
 }
 /*
 Ejercicio 6.
@@ -108,8 +105,7 @@ Programe la función int obtenerValor(Vector * v, int i),
 la cual retorna el valor en la posición i del vector v.
 */
 int obtenerValor(Vector * v, int i) {
-
-   return 0;
+   return v->datos[i];
 }
 
 /*
@@ -118,7 +114,12 @@ Función que suma los vectores `a` y `b` y
 actualiza el vector `c` con el resultado de la suma.
 */
 void sumaV(Vector * a, Vector * b, Vector * c) {
-   
+   int i;
+   int largo = a->capacidad;
+   for (i = 0 ; i < largo;i++)
+   {
+      c->datos[i] = a->datos[i] + b->datos[i];
+   }
 }
 
 /*
@@ -127,5 +128,5 @@ Use las operaciones implementadas de vectores para
 sumar (a1,a2)+(b1+b2). Almacene el resultado en el vector c.
 */
 void sumaV2(int a1, int a2, int b1, int b2, Vector *c){
-
+   
 }
