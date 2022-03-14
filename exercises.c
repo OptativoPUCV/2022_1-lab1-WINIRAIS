@@ -36,12 +36,12 @@ arreglo a y almacena el resultado en *suma.
 Utilice la función sumaN.
 */
 
-void sumaNultimos(int a[], int n, int m, int *suma) {
-   int primeraPosicion = 0 ,i;
-   primeraPosicion = n - m;
-   for (i = primeraPosicion ; i < n ; i++){
-      *suma = a[i] + *suma;
-   }
+void sumaNultimos(int a[], int n, int m, int * suma) {
+  int i,VF=0;
+  VF=n-m;
+  for (i=VF;i<n;i++){
+    suma = a[i]+suma;
+    }
 }
 
 /*
