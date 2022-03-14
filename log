@@ -190,3 +190,13 @@ exercises.c:100:6: error: left-hand operand of comma expression has no effect [-
 cc1.exe: all warnings being treated as errors
 Compilation failed
 d360e13
+Sun Mar 13 22:00:44 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'asignarValor':
+exercises.c:100:4: error: invalid type argument of unary '*' (have 'Vector {aka struct <anonymous>}')
+    *v[i] = valor;
+    ^~~~~
+Compilation failed
+688ec3e
