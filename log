@@ -179,3 +179,14 @@ Sun Mar 13 21:50:43 HSP 2022:
  tests:  3|4
 total_score: 30/70
 c09452b
+Sun Mar 13 22:00:19 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'asignarValor':
+exercises.c:100:6: error: left-hand operand of comma expression has no effect [-Werror=unused-value]
+    *v,i = valor;
+      ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+d360e13
